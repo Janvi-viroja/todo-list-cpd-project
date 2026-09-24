@@ -1,1 +1,0 @@
-Optional Expo assets can be added here.
