@@ -1,64 +1,63 @@
-# To-Do List
+# To-Do List – CPD Tiny Project
 
-A simple and responsive To-Do List web application developed as a CPD tiny project.
+A simple cross-platform mobile To-Do List application developed using **React Native and Expo**.
 
 ## Features
 
-- Add new tasks
+- Add tasks
 - Mark tasks as completed
 - Delete tasks
-- Clear all completed tasks
-- Shows pending and total task count
-- Saves tasks using browser Local Storage
-- Responsive design for desktop and mobile
+- Completion counter
+- Local task persistence using AsyncStorage
+- Responsive mobile UI
+- Android and iOS compatible
 
-## Technologies Used
+## Technology
 
-- HTML5
-- CSS3
+- React Native
+- Expo
 - JavaScript
-- Local Storage
+- AsyncStorage
+
+## Run the Project
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start Expo:
+
+```bash
+npx expo start
+```
+
+Then scan the QR code with Expo Go or run the application on an emulator.
 
 ## Project Structure
 
 ```text
-To-Do-List/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── docs/
-│   └── CPD-Documentation.pdf
-├── screenshots/
-├── .gitignore
-└── README.md
+ToDoList_ReactNative/
+├── App.js
+├── app.json
+├── package.json
+├── README.md
+└── .gitignore
 ```
 
-## How to Run
+## CPD Project
 
-1. Download or clone this repository.
-2. Open the project folder in VS Code.
-3. Open `index.html` in a browser.
-4. Add tasks and test the application.
+Subject: Cross Platform Development (CPD)
 
-You can also use the VS Code Live Server extension for easier development.
+Project: To-Do List
 
-## GitHub Upload
+## GitHub
 
-```bash
-git init
-git add .
-git commit -m "Initial commit - To-Do List CPD project"
-git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
+Upload this complete project folder to your GitHub repository.
 
-## Project Type
+## Team
 
-CPD Tiny Project
-
-## Author
-
-Student Project
+- Janvi Viroja – 2305101270385
+- Swati Priya – 2305101270354
+- Shrushti Mahadhik – 2305101270154

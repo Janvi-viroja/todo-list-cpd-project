@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "To-Do List",
+    "slug": "todo-list-cpd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F7FB"
+    }
+  }
+}
